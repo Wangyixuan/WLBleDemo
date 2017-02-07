@@ -16,6 +16,8 @@
 		9B1B1AD81E481C0100FDF43E /* WLBleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B1AD71E481C0100FDF43E /* WLBleDemoTests.m */; };
 		9B1B1AE31E481C0200FDF43E /* WLBleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B1AE21E481C0200FDF43E /* WLBleDemoUITests.m */; };
 		9B1B1AF21E48579700FDF43E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1B1AF11E48579700FDF43E /* CoreBluetooth.framework */; };
+		9B1B1AF61E49622F00FDF43E /* PeriCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B1AF41E49622F00FDF43E /* PeriCell.m */; };
+		9B1B1AF71E49622F00FDF43E /* PeriCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B1B1AF51E49622F00FDF43E /* PeriCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		9B1B1AE21E481C0200FDF43E /* WLBleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLBleDemoUITests.m; sourceTree = "<group>"; };
 		9B1B1AE41E481C0200FDF43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B1B1AF11E48579700FDF43E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		9B1B1AF31E49622F00FDF43E /* PeriCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriCell.h; sourceTree = "<group>"; };
+		9B1B1AF41E49622F00FDF43E /* PeriCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriCell.m; sourceTree = "<group>"; };
+		9B1B1AF51E49622F00FDF43E /* PeriCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeriCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,9 @@
 				9B1B1ACB1E481C0100FDF43E /* LaunchScreen.storyboard */,
 				9B1B1ACE1E481C0100FDF43E /* Info.plist */,
 				9B1B1ABD1E481C0100FDF43E /* Supporting Files */,
+				9B1B1AF31E49622F00FDF43E /* PeriCell.h */,
+				9B1B1AF41E49622F00FDF43E /* PeriCell.m */,
+				9B1B1AF51E49622F00FDF43E /* PeriCell.xib */,
 			);
 			path = WLBleDemo;
 			sourceTree = "<group>";
@@ -262,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B1B1ACD1E481C0100FDF43E /* LaunchScreen.storyboard in Resources */,
+				9B1B1AF71E49622F00FDF43E /* PeriCell.xib in Resources */,
 				9B1B1ACA1E481C0100FDF43E /* Assets.xcassets in Resources */,
 				9B1B1AC81E481C0100FDF43E /* Main.storyboard in Resources */,
 			);
@@ -289,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B1B1AC51E481C0100FDF43E /* ViewController.m in Sources */,
+				9B1B1AF61E49622F00FDF43E /* PeriCell.m in Sources */,
 				9B1B1AC21E481C0100FDF43E /* AppDelegate.m in Sources */,
 				9B1B1ABF1E481C0100FDF43E /* main.m in Sources */,
 			);

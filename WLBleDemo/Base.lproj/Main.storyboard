@@ -20,8 +20,27 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gFG-gZ-oJz">
+                                <rect key="frame" x="0.0" y="0.0" width="355" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="8qc-tZ-E03"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="BDH-tm-X1v"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gFG-gZ-oJz" secondAttribute="bottom" id="6if-sh-cKS"/>
+                            <constraint firstAttribute="trailing" secondItem="gFG-gZ-oJz" secondAttribute="trailing" constant="20" symbolic="YES" id="Ab1-ZG-4QK"/>
+                            <constraint firstItem="gFG-gZ-oJz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="O6G-rR-aX7"/>
+                            <constraint firstItem="gFG-gZ-oJz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gxG-aK-ZFW"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView1" destination="gFG-gZ-oJz" id="MtW-oV-MI6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
